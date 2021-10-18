@@ -58,3 +58,18 @@ print(f"%= işlemi sonrasi {a}") ## a nın değerini 2 yazar
 **Ekran Çıktısı**
 
 ![image](https://user-images.githubusercontent.com/28144917/137684933-e45d244c-24cc-414a-ae0d-cd376a056a19.png)
+
+> **Klavyeden girilen 2 puanın ortalamasını hesaplatınız**
+
+**Çözüm**
+```python
+
+puan1=int(input("1. Puanınızı Giriniz:"))
+puan2=int(input("2. Puanınızı Giriniz:"))
+
+ortalama=(puan1+puan2)/2
+
+print(f"Ortalama:{ortalama}")
+
+
+```
